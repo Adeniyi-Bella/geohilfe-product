@@ -1,0 +1,52 @@
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-deployment
+spec:
+  selector:
+    matchLabels:
+      app: frontend-app
+      tier: frontend
+      track: stable
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: frontend-app
+        tier: frontend
+        track: stable
+    spec:
+      containers:
+      - name: frontend-app
+        image: <IMAGE>
+        imagePullPolicy: Always
+        env:
+            - name: PORT
+              value: "8000"
+        ports:
+            - containerPort: 8000
+        resources:
+          requests:
+            memory: "512M"
+            cpu: "125m"
+          limits:
+            memory: "1G"
+            cpu: "250m"
+      imagePullSecrets:
+        - name: ghcr-credentials
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+spec:
+  selector:
+    app: frontend-app
+    tier: frontend
+  ports:
+  - protocol: "TCP"
+    port: 80
+    targetPort: 8000
+  externalTrafficPolicy: Local
+  type: LoadBalancer

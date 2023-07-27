@@ -1,0 +1,74 @@
+{
+	"name": "dps project template",
+	"version": "1.0.0",
+	"description": "DPS Project Template",
+	"keywords": [
+		"dps"
+	],
+	"main": "src/index.js",
+	"dependencies": {
+		"@emotion/react": "^11.11.1",
+		"@emotion/styled": "^11.11.0",
+		"@fortawesome/fontawesome-svg-core": "^6.4.0",
+		"@fortawesome/free-solid-svg-icons": "^6.4.0",
+		"@fortawesome/react-fontawesome": "^0.2.0",
+		"@mapbox/mapbox-sdk": "^0.15.1",
+		"@mui/icons-material": "^5.11.16",
+		"@mui/material": "^5.13.4",
+		"@react-google-maps/api": "^2.18.1",
+		"@turf/helpers": "^6.5.0",
+		"@turf/turf": "^6.5.0",
+		"axios": "^1.4.0",
+		"husky": "^8.0.3",
+		"interactjs": "^1.10.17",
+		"mapbox-gl": "^2.15.0",
+		"osmtogeojson": "^3.0.0-beta.5",
+		"prop-types": "^15.8.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-icons": "^4.9.0",
+		"react-query": "^3.39.3",
+		"react-router": "6.10.0",
+		"react-router-dom": "6.10.0",
+		"react-scripts": "5.0.1",
+		"recoil": "^0.7.7",
+		"socket.io-client": "^4.6.2",
+		"swiper": "^9.3.2"
+	},
+	"devDependencies": {
+		"@babel/runtime": "7.21.0",
+		"eslint": "^8.38.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.32.2",
+		"lint-staged": "^13.2.1",
+		"prettier": "^2.8.7"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix",
+		"format": "prettier --write './**/*.{js,jsx,css,md,json}' --config ./.prettierrc",
+		"prepare-eslint": "cd .. && husky install frontend/.husky && npx husky add frontend/.husky/pre-commit \"cd frontend && npx lint-staged\""
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"lint-staged": {
+		"*.{js,jsx}": [
+			"prettier --write",
+			"eslint --fix"
+		],
+		"*.{html,css,less,ejs}": [
+			"prettier --write"
+		],
+		"*.js": "eslint --cache --fix",
+		"*.{js,css,md}": "prettier --write"
+	}
+}

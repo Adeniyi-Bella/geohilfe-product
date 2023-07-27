@@ -1,0 +1,167 @@
+.mainDiv {
+	height: 100vh;
+	background: #f8f9fb;
+}
+
+.keyWordsDiv {
+	padding: 24px 16px;
+	height: 40%;
+	border-left: 1px solid #d1d9e2;
+	border-bottom: 1px solid #d1d9e2;
+	font-family: "Pretendard", sans-serif;
+}
+
+.keywordsHeaderDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+}
+.addKeywordsDiv {
+	padding: 24px 16px;
+	min-height: 450px;
+	font-family: "Pretendard", sans-serif;
+}
+h4 {
+	margin: 25px 0;
+	font-family: "Pretendard", sans-serif;
+}
+
+h5 {
+	font-family: "Pretendard", sans-serif;
+	color: var(--gray-2, #5f6d7e);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+p {
+	font-family: "Pretendard", sans-serif;
+	color: var(--gray-2, #5f6d7e);
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.48px;
+}
+.keywordsSection {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	gap: 10px;
+	min-height: 200px;
+	max-height: 200px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+	scrollbar-color: grey lightgrey;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+.keywordsSection::-webkit-scrollbar {
+	width: 8px;
+}
+
+.keywordsSection::-webkit-scrollbar-track {
+	background: lightgrey;
+}
+
+.keywordsSection::-webkit-scrollbar-thumb {
+	background-color: grey;
+	border-radius: 20px;
+}
+
+.keywordsSection::-webkit-scrollbar-thumb:hover {
+	background-color: darkgrey;
+}
+.restaurant {
+	background: red;
+}
+.hotel {
+	background: green;
+}
+.shop {
+	background: blue;
+}
+.gasstation {
+	background: #ff00bf;
+}
+.park {
+	background: #eaff00;
+}
+.busstation {
+	background: #00ffd5;
+}
+
+.keywordsItem {
+	height: fit-content;
+	padding: 8px;
+	cursor: pointer;
+	/* color: #5f6d7e; */
+	font-size: 15px;
+	font-weight: 500;
+	line-height: normal;
+	font-style: normal;
+	padding: 8px;
+	/* background: #e6e9ec; */
+	border-radius: 4px;
+	border: 1px solid #d1d9e2;
+}
+
+.keywordsTab {
+	height: fit-content;
+	padding: 8px;
+	cursor: pointer;
+	color: #5f6d7e;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: normal;
+	font-style: normal;
+	padding: 8px;
+	background: #e6e9ec;
+	border-radius: 4px;
+	border: 1px solid #d1d9e2;
+}
+
+.keywordsItem.hidden {
+	visibility: hidden;
+}
+
+.addKeywordSpan {
+	color: var(--gray-2, #5f6d7e);
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+	font-family: "Pretendard", sans-serif;
+}
+.addKeywordForm {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	font-family: "Pretendard", sans-serif;
+	gap: 10px;
+	top: 24px;
+}
+.addKeywordInput {
+	border-radius: 17.5px;
+	background: var(--neutral-2, #e6e9ec);
+	height: 30px;
+	padding: 8px 20px;
+	border-color: transparent;
+	font-family: "Pretendard", sans-serif;
+}
+.addKeywordButton {
+	position: absolute;
+	top: 4px;
+	right: 15px;
+	width: fit-content;
+	color: var(--point-blue, #2295ff);
+	background: var(--neutral-2, #e6e9ec);
+	font-size: 15px;
+	margin: 0 auto;
+	font-family: "Pretendard", sans-serif;
+	border-color: transparent;
+}
+.keywordColor {
+	background-color: #5f6d7e;
+	color: white;
+}

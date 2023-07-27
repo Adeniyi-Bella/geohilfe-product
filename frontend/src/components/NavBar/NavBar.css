@@ -1,0 +1,66 @@
+/* NavBar.css */
+
+.navbar {
+	background: #2e3646;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 30px;
+	font-family: "Pretendard", sans-serif;
+}
+
+.navbar-logo {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar-title {
+	color: #ffffff;
+	width: 70px;
+	height: 13px;
+	font-weight: bold;
+	font-family: "Pretendard", sans-serif;
+}
+
+.navbar-actions {
+	display: flex;
+	gap: 5px;
+	justify-content: space-between;
+	align-items: center;
+	width: 290px;
+	font-family: "Pretendard", sans-serif;
+}
+
+.navbar-user-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: var(--gray-50, #5f6d7e);
+	font-family: "Pretendard", sans-serif;
+}
+
+.navbar-button {
+	background-color: #00c514;
+	padding: 5px;
+	width: 113px;
+	height: 32px;
+	color: #ffffff;
+	border-radius: 5px;
+	font-size: 14px;
+	border: 2px solid #00c514; /* Change the border color here */
+	font-family: "Pretendard", sans-serif;
+	cursor: pointer;
+}
+
+.navbar-tab {
+	font: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: "Pretendard", sans-serif;
+}

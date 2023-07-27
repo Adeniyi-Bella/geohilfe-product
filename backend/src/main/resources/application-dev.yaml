@@ -1,0 +1,18 @@
+spring:
+  # add the "afterMigrate" script that adds dummy data when the server is started in "dev" profile
+  flyway.locations: "classpath:db/migration,classpath:db/dev"
+
+
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/postgres"
+    username: "compose-postgres"
+    password: "compose-postgres"
+
+#    username: "postgres"
+#    password: "postgres"
+#
+#    flyway:
+#      baseline-on-migrate: true
+#      baseline-version: '0'
+#      username: "postgres"
+#      password: "postgres"

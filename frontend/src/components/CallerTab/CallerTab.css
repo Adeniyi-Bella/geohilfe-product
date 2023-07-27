@@ -1,0 +1,56 @@
+.notification-container {
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	width: 100%;
+	z-index: 1;
+	max-width: 400px;
+	color: white;
+	border-radius: 5px;
+	background: var(--gray-1, #2e3646);
+	box-shadow: -3px 5px 10px 2px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+	padding: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.anrufDiv {
+	height: 30px;
+	background: white;
+	width: 150px;
+	padding-top: 9px;
+	padding-left: 10px;
+	border-radius: 5px;
+	color: var(--neutral-1, #d1d9e2);
+	font-size: 14px;
+	font-family: "Pretendard", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.pickUpDiv {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+	width: 100px;
+	padding: 10px;
+	font-size: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.vertical-ellipsis {
+	writing-mode: vertical-rl; /* Rotate vertically from right to left */
+	margin-right: -8px;
+}
+.rotated-icon {
+	transform: rotate(120deg); /* Rotate the icon by 180 degrees */
+}
+
+@media (max-width: 600px) {
+	.column {
+		flex-basis: 100%;
+	}
+}

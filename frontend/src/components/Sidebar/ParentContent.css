@@ -1,0 +1,76 @@
+/* Parents component */
+.container {
+	width: 320px;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	top: 50px;
+	transform: translate(10px, 10px);
+	margin-right: 13px;
+	min-height: 100vh;
+	background-color: #ffffff;
+	border-left: 1px solid #d1d9e2;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+	font-family: "Pretendard", sans-serif;
+}
+
+.tabs {
+	display: flex;
+	height: 53px;
+	background: #e6e9ec;
+	font-family: "Pretendard", sans-serif;
+}
+
+.tabs div {
+	cursor: pointer;
+	padding: 15px 22px;
+	font-size: 13px;
+	font-family: Pretendard;
+	color: #5f6d7e;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.56px;
+	font-family: "Pretendard", sans-serif;
+}
+
+.tabs .active {
+	background: #ffffff;
+	color: #2e3646;
+	font-size: 14px;
+	font-family: Pretendard;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.56px;
+	font-family: "Pretendard", sans-serif;
+}
+
+h3 {
+	text-align: center;
+	cursor: pointer;
+	font-weight: 600;
+	font-family: "Pretendard", sans-serif;
+}
+.tab-content .active {
+	display: block;
+}
+.coordinatesDiv {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 10px;
+	font-family: "Pretendard", sans-serif;
+}
+.coordinatesSpan {
+	background-color: white;
+	max-width: fit-content;
+	min-width: 50px;
+	padding-bottom: 18px;
+	padding-right: 80px;
+	margin-bottom: 3px;
+	border: 1px solid rgb(209, 217, 226);
+	padding-left: 30px;
+	font-family: "Pretendard", sans-serif;
+}
+
+/* keywordsSection */
