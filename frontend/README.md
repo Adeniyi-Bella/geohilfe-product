@@ -13,10 +13,10 @@
 
 # Running **_locally_**
 
-- cd into frontend directory from batch19--drk
+- cd into frontend directory from geohilfe-product
 - create a .env file in the root of the frontend directory and add the token below:
 REACT_APP_MAPBOXGL_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. You need to obtain your own token from mapbox.
-- run  ```<npm i>``` from terminal to install neccessary dependencies
+- run  ```<npm i>``` from terminal to install necessary dependencies
 - run  ```<npm start>``` and the app should start on ```http://localhost:3000``` with ```Welcome to Geohilfe```.
 - change the url to ```http://localhost:3000/app``` and the map should be displayed.
 - If you are connected to the AI, you can already start adding keywords manually.
@@ -24,4 +24,4 @@ REACT_APP_MAPBOXGL_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Debugging
 - In dev mode, there is a bug that makes the map not to load correctly. In this case, you have to reload.
-- During development, you have to also follow the eslint rules, unless you would get eslint errors. 
+- During development, you have to also follow the eslint rules before saving, unless you would get eslint errors. 
