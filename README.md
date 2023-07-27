@@ -3,6 +3,9 @@
 
 <img width="800" alt="image" src="https://github.com/DigitalProductschool/batch19--drk/assets/37347588/529859b9-4e54-41d6-a6dd-ac9dc67721b1">
 
+### Introduction:
+Geohilfe aims to assist emergency services operators in locating patients by listening in to live patient calls. Geohilfe extracts keywords from the conversation (places, landmarks, streets) and displays them for the operator to select. Operators can choose which keywords are relevant and these are sent to the AI model. Using the selected keywords, a similarity function computes scores on where the patient is most likely located. The scores are sent back to the operator along with their respective grid information. These scores and grids are displayed for the operator to see.  
+
 ### Tech Stacks
 - Frontend was bootstrapped with React JS
 - Backend was developed with node js
