@@ -29,21 +29,21 @@ Geohilfe aims to assist emergency services operators in locating patients by lis
 
 - `Step 1`: Cloning the repo
 ```bash
-git clone <Your_Repo_URL>
+git clone <https://github.com/Adeniyi-Bella/geohilfe-product.git>
 ```
  
 - `Step 2`: starting the front end locally
 ```bash
-- Check the frontend directory for set up procedures.
+- Check the frontend directory for set-up procedures.
 ```
 
 
 - `Step 3`: starting the ai
 ```bash
-- Check ai directory for set up procedures.
+- Check ai directory for set-up procedures.
 ```
 
  - `Step 4`: set up the backend
 ```bash
-- Check the server directory for set up procedures
+- Check the server directory for set-up procedures
 ```
