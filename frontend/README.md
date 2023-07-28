@@ -36,7 +36,7 @@ REACT_APP_MAPBOXGL_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - run ```<npm build> ``` to build for production.
 
 ## Usage
-If the backend and AI are running, when you make a call you should start seeing the keywords being displayed. 
+If the backend and AI are running, when you make a call using twillio for example, you should start seeing the keywords being displayed. 
 Clicking a keyword zooms into the grid with the highest probability.
 
 ## Folder Structure
