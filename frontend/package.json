@@ -1,5 +1,5 @@
 {
-	"name": "dps project template",
+	"name": "dps-project-template",
 	"version": "1.0.0",
 	"description": "DPS Project Template",
 	"keywords": [
@@ -7,8 +7,6 @@
 	],
 	"main": "src/index.js",
 	"dependencies": {
-		"@emotion/react": "^11.11.1",
-		"@emotion/styled": "^11.11.0",
 		"@fortawesome/fontawesome-svg-core": "^6.4.0",
 		"@fortawesome/free-solid-svg-icons": "^6.4.0",
 		"@fortawesome/react-fontawesome": "^0.2.0",
@@ -17,23 +15,17 @@
 		"@mui/material": "^5.13.4",
 		"@react-google-maps/api": "^2.18.1",
 		"@turf/helpers": "^6.5.0",
-		"@turf/turf": "^6.5.0",
 		"axios": "^1.4.0",
 		"husky": "^8.0.3",
-		"interactjs": "^1.10.17",
 		"mapbox-gl": "^2.15.0",
-		"osmtogeojson": "^3.0.0-beta.5",
 		"prop-types": "^15.8.1",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"react-icons": "^4.9.0",
-		"react-query": "^3.39.3",
 		"react-router": "6.10.0",
 		"react-router-dom": "6.10.0",
 		"react-scripts": "5.0.1",
 		"recoil": "^0.7.7",
-		"socket.io-client": "^4.6.2",
-		"swiper": "^9.3.2"
+		"socket.io-client": "^4.6.2"
 	},
 	"devDependencies": {
 		"@babel/runtime": "7.21.0",
